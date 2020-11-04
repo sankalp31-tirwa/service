@@ -1,0 +1,21 @@
+
+<div>
+    <mat-selection-list #list [multiple]="false" class="selection">
+        <mat-list-option *ngFor="let list of todoList" [value]="list" (click) ="deleteItem(list)" class ="list">
+        {{ list }}
+        </mat-list-option>
+    </mat-selection-list>
+</div>
+  
+  <p>
+    
+  </p>
+
+<!--
+<div>
+<ul>
+    <li *ngFor="let list of todoList" (click) ="deleteItem(list)" ><h1>{{ list }}</h1></li>
+
+</ul>
+</div>
+-->

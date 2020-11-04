@@ -1,0 +1,17 @@
+.nav {
+  background-color: #704C5E;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.nav h2 {
+  font-size: 22px;
+  font-weight:bold;
+}
+
+.nav span {
+  font-weight:lighter;
+  padding-left: 1px;
+}
